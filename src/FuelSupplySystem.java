@@ -3,7 +3,7 @@ public class FuelSupplySystem {
         return 1;
     }
 
-    public boolean fillInFuelReservoirs(Party[0]) {
+    public boolean fillInFuelReservoirs(Party[] parties) {
         return true;
     }
 
