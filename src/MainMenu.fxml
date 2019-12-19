@@ -8,10 +8,10 @@
 
 <AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainMenu">
    <children>
-      <Button layoutX="966.0" layoutY="733.0" mnemonicParsing="false" prefWidth="171.0" text="Выход" />
+      <Button fx:id="closeButton" layoutX="966.0" layoutY="733.0" mnemonicParsing="false" onAction="#exit" prefWidth="171.0" text="Выход" />
       <Button layoutX="966.0" layoutY="62.0" mnemonicParsing="false" prefWidth="171.0" text="Добавить АЗС" />
-      <Button layoutX="966.0" layoutY="108.0" mnemonicParsing="false" text="Запустить симуляцию" />
-      <Button layoutX="966.0" layoutY="152.0" mnemonicParsing="false" prefWidth="171.0" text="Сбросить симуляцию" />
+      <Button layoutX="966.0" layoutY="108.0" mnemonicParsing="false" onAction="#startSimulation" text="Запустить симуляцию" />
+      <Button layoutX="966.0" layoutY="152.0" mnemonicParsing="false" onAction="#stopSimulation" prefWidth="171.0" text="Сбросить симуляцию" />
       <Label layoutX="39.0" layoutY="22.0" text="АЗС симуляция">
          <font>
             <Font name="Calibri" size="34.0" />
@@ -23,5 +23,6 @@
             <Font size="21.0" />
          </font>
       </Label>
+      <Label fx:id="counterOfTime" layoutX="51.0" layoutY="83.0" prefHeight="21.0" prefWidth="345.0" />
    </children>
 </AnchorPane>
