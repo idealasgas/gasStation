@@ -20,7 +20,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("MainMenu.fxml"));
 
-        primaryStage.setTitle("Gas Station");
+        primaryStage.setTitle("АЗС симуляция");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }

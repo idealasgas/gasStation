@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="544.0" prefWidth="871.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CreationForm">
+   <children>
+      <Label layoutX="325.0" layoutY="43.0" text="АЗС симуляция">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="119.0" text="Общее количество тактов*" />
+      <Label layoutX="119.0" layoutY="185.0" text="Скорость (тактов в секунду)" />
+      <Label layoutX="121.0" layoutY="251.0" text="Количество станций конкурентов" />
+      <Label layoutX="121.0" layoutY="313.0" text="Количество водителей в день*" />
+      <CheckBox layoutX="121.0" layoutY="391.0" mnemonicParsing="false" text="Включить события" />
+      <Button layoutX="124.0" layoutY="450.0" mnemonicParsing="false" text="Submit" />
+      <TextField layoutX="121.0" layoutY="140.0" prefHeight="31.0" prefWidth="612.0" />
+      <TextField layoutX="121.0" layoutY="206.0" prefHeight="31.0" prefWidth="612.0" />
+      <TextField layoutX="121.0" layoutY="272.0" prefHeight="31.0" prefWidth="612.0" />
+      <TextField layoutX="121.0" layoutY="334.0" prefHeight="31.0" prefWidth="612.0" />
+   </children>
+</AnchorPane>
