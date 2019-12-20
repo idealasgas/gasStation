@@ -3,8 +3,13 @@ public class GasStation {
     public String company;
     private float money;
 
-//  в аргументах должны быть Партия
-    private boolean fillInTheWarehouse(){
+    public Warehouse[] warehouses;
+    public FuelColumn[] fuelColumns;
+    public FuelSupplySystem fuelSupplySystem;
+    public Simulation simulation;
+    public Operator[] operators;
+
+    private boolean fillInTheWarehouse(Party[] parties){
         return true;
     }
 

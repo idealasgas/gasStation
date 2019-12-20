@@ -12,6 +12,7 @@ public class MainMenu {
     @FXML private Label counterOfTime;
     @FXML private Button closeButton;
     private int counter;
+    CreationForm[] childElements;
 
     public void startSimulation(ActionEvent event) {
         Timer timer = new Timer();

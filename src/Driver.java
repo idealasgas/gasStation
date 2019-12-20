@@ -1,5 +1,7 @@
-public class Driver {
+public class Driver implements ObjectOfSimulation{
     private float money;
+    public Automobile automobile;
+    public Operator operator;
 
     private void makeOrder(Operator operator) {
         return;

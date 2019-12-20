@@ -1,3 +1,4 @@
 public interface ObjectOfSimulation {
-    public void startABit();
+    void startABit();
+    public Simulation simulation = new Simulation();
 }

@@ -3,4 +3,5 @@ public class Product {
     public float price;
     private float costPrice;
     private int minAmountForPurchase;
+    public Party party;
 }

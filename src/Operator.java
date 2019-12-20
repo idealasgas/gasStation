@@ -1,6 +1,10 @@
-public class Operator {
+public class Operator implements ObjectOfSimulation{
     private String name;
     private OperatorStatus status;
+
+    public Driver currentClient;
+
+    public GasStation workPlace;
 
     private void giveProducts() {
         return;

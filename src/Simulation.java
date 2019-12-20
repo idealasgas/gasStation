@@ -1,13 +1,16 @@
-public class Simulation {
+public class Simulation implements ObjectOfSimulation{
     public int amountOfBitsGone;
     private int speed;
     private int overallAmountOfBits;
+    public Event[] events;
+    public GasStation[] stations;
+    ObjectOfSimulation[] objectsOfSimulation;
 
     public void startSimulation(GasStation station, Driver[] drivers, int number) {
         return;
     }
 
-    private void startABit() {
+    public void startABit() {
         return;
     }
 
