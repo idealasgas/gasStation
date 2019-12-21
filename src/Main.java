@@ -10,11 +10,6 @@ public class Main extends Application {
     public static void main(String[] args) {
 	// write your code here
         launch(args);
-        int  i=4;
-        while (i==4) {
-
-            System.out.println("говной воняешь");
-        }
 
     }
 

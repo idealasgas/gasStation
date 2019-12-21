@@ -6,6 +6,6 @@ public class CreationForm {
     MainMenu parent;
 
     public void saveObject(Map<String, String> hash) {
-        return;
+
     }
 }
